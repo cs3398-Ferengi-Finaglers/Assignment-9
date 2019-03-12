@@ -1,7 +1,7 @@
 
 package carcraft;
 
-public class PaintColor extends CarOptions
+public class AirScoop extends CarOptions
 {
         public String AirScoop;
 
