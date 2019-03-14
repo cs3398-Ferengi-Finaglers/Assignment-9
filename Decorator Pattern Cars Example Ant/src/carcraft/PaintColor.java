@@ -1,4 +1,4 @@
-
+//Karen's work:
 package carcraft;
 
 public class PaintColor extends CarOptions
