@@ -8,6 +8,7 @@ public class CarMain {
 
 		System.out.println("Starting:  Creating Cars without Decorator Pattern\n");
 	
+                
 		//System.out.println("Make a Supercharged Basic Car:");
 		//ICar carWithSuperCharger = new CarWithSuperCharger();
 		//System.out.println("Done. " + carWithSuperCharger.GetDescription());
@@ -16,6 +17,10 @@ public class CarMain {
 	//	ICar paintedCarWithSuperCharger = new PaintedCarWithSuperCharger("Blue");
 		
 		//System.out.println("Done. " + paintedCarWithSuperCharger.GetDescription());
+                
+                //Karen's addition:
+                ICar paintedCar = new PaintColor(new BasicCar());
+                System.out.print(paintedCar.GetDescription());
 	}
 
 }

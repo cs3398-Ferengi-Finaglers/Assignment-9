@@ -1,9 +1,17 @@
 
 package carcraft;
 
-abstract interface CarOptions extends ICar
+abstract class CarOptions implements ICar
 {
+    ICar icar;
+    public CarOptions(ICar icar)
+    {
+        this.icar = icar;
+    }
 
-        @Override
-        public String GetDescription();
+    @Override
+    public String GetDescription()
+    {
+        return this.icar.GetDescription();
+    }
 }

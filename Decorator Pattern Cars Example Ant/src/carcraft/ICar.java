@@ -4,6 +4,6 @@ package carcraft;
 public interface ICar {
 
 
-    String GetDescription();
+    public abstract String GetDescription();
 }
 
