@@ -6,3 +6,5 @@ Karen - I corrected main and the decorator classes so that the decorators now wo
 Jacob - I created the repository and was responsible for/edited the air scoop class.
 
 Leander - I helped with the structuring of the classes and interfaces.
+
+Ana - GOTO: cs3398-Ferengi-Finaglers/Assignment-9/AnaPrymachenkoAssignment9/Readme.md
