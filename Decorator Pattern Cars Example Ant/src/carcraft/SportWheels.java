@@ -3,7 +3,7 @@ package carcraft;
 
 public class SportWheels extends CarOptions
 {
-        public String SportWheels;
+        public String SportWheels = "Sport Wheels";
         public SportWheels(ICar icar)
         {
             super(icar);
@@ -12,7 +12,7 @@ public class SportWheels extends CarOptions
         @Override
         public void GetDescription()
         {
-        	SportWheels = "SportWheels";
+            super.GetDescription();;
             System.out.print( " with " + SportWheels);
         }
 }
