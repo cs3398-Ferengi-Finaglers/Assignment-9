@@ -1,7 +1,7 @@
 
 package carcraft;
 
-public class AirScoop extends CarOptions
+public class AirScoop implements CarOptions
 {
         public String AirScoop;
 
@@ -9,6 +9,7 @@ public class AirScoop extends CarOptions
         @Override
         public String GetDescription()
         {
-            return super.GetDescription() + " with " + AirScoop;
+        	AirScoop = " AirScoop";
+            return " with " + AirScoop;
         }
 }

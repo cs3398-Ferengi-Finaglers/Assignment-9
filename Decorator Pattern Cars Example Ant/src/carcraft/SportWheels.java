@@ -1,7 +1,7 @@
 
 package carcraft;
 
-public class SportWheels extends CarOptions
+public class SportWheels implements CarOptions
 {
         public String SportWheels;
 
@@ -9,6 +9,7 @@ public class SportWheels extends CarOptions
         @Override
         public String GetDescription()
         {
-            return super.GetDescription() + " with " + SportWheels;
+        	SportWheels = "SportWheels";
+            return " with " + SportWheels;
         }
 }

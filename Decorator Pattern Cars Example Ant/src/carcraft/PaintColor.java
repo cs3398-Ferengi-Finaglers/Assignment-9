@@ -1,14 +1,14 @@
 
 package carcraft;
 
-public class PaintColor extends CarOptions
+public class PaintColor implements CarOptions
 {
-        public String Color;
+        public String Color = "blue";
 
 
         @Override
         public String GetDescription()
         {
-            return super.GetDescription() + " with " + Color + " color";
+            return " with " + Color + " color";
         }
 }

@@ -1,14 +1,15 @@
 
 package carcraft;
 
-public class SuperCharger extends CarOptions  {
+public class SuperCharger implements CarOptions  {
 
 	public String SuperCharger;
 
     @Override
     public String GetDescription()
   	{
-        return super.GetDescription() + " with " + SuperCharger;
+    	SuperCharger = "Supercharger";
+        return " with " + SuperCharger;
   	}
 }
 
