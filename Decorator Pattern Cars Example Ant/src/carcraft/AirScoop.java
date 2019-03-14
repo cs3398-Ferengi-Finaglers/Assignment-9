@@ -3,7 +3,7 @@ package carcraft;
 
 public class AirScoop extends CarOptions
 {
-        public String AirScoop;
+        public String AirScoop = "Air Scoop";
         public AirScoop(ICar icar)
         {
             super(icar);
@@ -12,7 +12,7 @@ public class AirScoop extends CarOptions
         @Override
         public void GetDescription()
         {
-        	AirScoop = " AirScoop";
+            super.GetDescription();
             System.out.print( " with a super cool " + AirScoop);
         }
 }
