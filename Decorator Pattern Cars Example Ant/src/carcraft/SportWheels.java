@@ -13,6 +13,6 @@ public class SportWheels extends CarOptions
         public void GetDescription()
         {
             super.GetDescription();;
-            System.out.print( " with " + SportWheels);
+            System.out.print( " with " + SportWheels + "\n");
         }
 }
