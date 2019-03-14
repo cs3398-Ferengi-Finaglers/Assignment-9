@@ -3,7 +3,7 @@ package carcraft;
 
 public class SuperCharger extends CarOptions  {
 
-	public String SuperCharger;
+	public String SuperCharger "Super Charger";
         public SuperCharger(ICar icar)
         {
             super(icar);
@@ -12,7 +12,7 @@ public class SuperCharger extends CarOptions  {
     @Override
     public void GetDescription()
   	{
-    	SuperCharger = "Supercharger";
+    	super.GetDescription();
         System.out.print( " with " + SuperCharger + "\n");
   	}
 }
