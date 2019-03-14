@@ -14,6 +14,6 @@ public class PaintColor extends CarOptions
         public void GetDescription()
         {
             super.GetDescription();
-            System.out.print("Car now is now painted a" + color + " color.\n");
+            System.out.print("Car now is painted a " + color + " color.\n");
         }
 }

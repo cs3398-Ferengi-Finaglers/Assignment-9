@@ -13,7 +13,7 @@ public class SuperCharger extends CarOptions  {
     public void GetDescription()
   	{
     	SuperCharger = "Supercharger";
-        System.out.print( " with " + SuperCharger);
+        System.out.print( " with " + SuperCharger + "\n");
   	}
 }
 
