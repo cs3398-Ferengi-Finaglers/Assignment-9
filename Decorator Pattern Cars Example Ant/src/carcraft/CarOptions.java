@@ -10,8 +10,8 @@ abstract class CarOptions implements ICar
     }
 
     @Override
-    public String GetDescription()
+    public void GetDescription()
     {
-        return this.icar.GetDescription();
+        this.icar.GetDescription();
     }
 }

@@ -10,10 +10,10 @@ public class SuperCharger extends CarOptions  {
         }
 
     @Override
-    public String GetDescription()
+    public void GetDescription()
   	{
     	SuperCharger = "Supercharger";
-        return " with " + SuperCharger;
+        System.out.print( " with " + SuperCharger);
   	}
 }
 

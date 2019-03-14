@@ -3,7 +3,7 @@ package carcraft;
 
 public class PaintColor extends CarOptions
 {
-        public String Color = "blue";
+        public String color = "blue";
         
         public PaintColor(ICar icar)
         {
@@ -11,9 +11,9 @@ public class PaintColor extends CarOptions
         }
 
         @Override
-        public String GetDescription()
+        public void GetDescription()
         {
             super.GetDescription();
-            return "Car now is " + Color + " color";
+            System.out.print("Car now is now painted a" + color + " color.\n");
         }
 }

@@ -10,9 +10,9 @@ public class AirScoop extends CarOptions
         }
 
         @Override
-        public String GetDescription()
+        public void GetDescription()
         {
         	AirScoop = " AirScoop";
-            return " with " + AirScoop;
+            System.out.print( " with " + AirScoop);
         }
 }

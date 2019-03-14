@@ -1,15 +1,18 @@
 
 package carcraft;
 
-public class SportWheels implements CarOptions
+public class SportWheels extends CarOptions
 {
         public String SportWheels;
-
+        public SportWheels(ICar icar)
+        {
+            super(icar);
+        }
 
         @Override
-        public String GetDescription()
+        public void GetDescription()
         {
         	SportWheels = "SportWheels";
-            return " with " + SportWheels;
+            System.out.print( " with " + SportWheels);
         }
 }
