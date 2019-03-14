@@ -13,6 +13,6 @@ public class AirScoop extends CarOptions
         public void GetDescription()
         {
         	AirScoop = " AirScoop";
-            System.out.print( " with " + AirScoop);
+            System.out.print( " with a super cool " + AirScoop);
         }
 }
